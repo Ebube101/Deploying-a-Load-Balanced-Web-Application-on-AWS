@@ -34,7 +34,7 @@ This project demonstrates how to deploy a fault-tolerant, load-balanced web appl
 
 ### 🧭 Architecture Diagram
 ```md
-![architecture-diagram](https://github.com/Ebube101/Deploying-a-Load-Balanced-Web-Application-on-AWS/blob/main/diagram/Architecture-diagram.png?raw=true))
+![architecture-diagram](diagram/Architecture-diagram.png)
 ```
 
 ---
