@@ -36,6 +36,8 @@ This project demonstrates how to deploy a fault-tolerant, load-balanced web appl
 
 ![diagram/Architecture-diagram.png](https://github.com/Ebube101/Deploying-a-Load-Balanced-Web-Application-on-AWS/blob/main/diagram/Architecture-diagram.png)
 
+![diagram/ALB-setup.png](https://github.com/Ebube101/Deploying-a-Load-Balanced-Web-Application-on-AWS/blob/main/diagram/ALB-setup.png)
+
 
 ---
 
@@ -52,9 +54,7 @@ This project demonstrates how to deploy a fault-tolerant, load-balanced web appl
 ```
 
 _Screenshot example:_
-```md
-![vpc-screenshot](/Deploying-a-Load-Balanced-Web-Application-on-AWS/screenshots/vpc-setup.png)
-```
+![vpc-setup](https://github.com/Ebube101/Deploying-a-Load-Balanced-Web-Application-on-AWS/blob/main/screenshots/vpc-setup.png)
 
 ---
 
@@ -118,8 +118,8 @@ _Deployed to `/usr/share/nginx/html/index.php`_
 - Registered both EC2 instances from private subnets
 - ALB DNS: `http://your-alb-dns.amazonaws.com`
 
-![alb-setup](/Deploying-a-Load-Balanced-Web-Application-on-AWS/screenshots/alb-config.png)
 ```
+![alb-setup](https://github.com/Ebube101/Deploying-a-Load-Balanced-Web-Application-on-AWS/blob/main/screenshots/alb-config.png)
 
 ---
 
@@ -129,9 +129,9 @@ _Deployed to `/usr/share/nginx/html/index.php`_
 - Target Group attached to the ASG
 - Desired: 2 | Min: 2 | Max: 4
 - Verified scaling by terminating an instance
-
-![asg-screenshot](images/asg.png)
 ```
+![asg-screenshot](https://github.com/Ebube101/Deploying-a-Load-Balanced-Web-Application-on-AWS/blob/main/diagram/ASG-flow.png)
+
 
 ---
 
@@ -146,19 +146,21 @@ _Deployed to `/usr/share/nginx/html/index.php`_
 
 ### 📸 Screenshots
 
-```md
+
 #### VPC Topology
-![vpc](images/vpc.png)
+![vpc](https://github.com/Ebube101/Deploying-a-Load-Balanced-Web-Application-on-AWS/blob/main/screenshots/vpc-setup.png)
 
 #### Nginx App Output
-![nginx-output](screenshots/nginx-output.png)
+![nginx-output](https://github.com/Ebube101/Deploying-a-Load-Balanced-Web-Application-on-AWS/blob/main/screenshots/nginx-output.png)
 
 #### Target Group Health
-![target-group](screenshots/target-group-health.png)
+![target-group](https://github.com/Ebube101/Deploying-a-Load-Balanced-Web-Application-on-AWS/blob/main/screenshots/target-group-healthy.png)
 
 #### Auto Scaling Group
-![asg](screenshots/asg-after.png)
-```
+![asg](https://github.com/Ebube101/Deploying-a-Load-Balanced-Web-Application-on-AWS/blob/main/screenshots/asg-before.png)
+
+![asg](https://github.com/Ebube101/Deploying-a-Load-Balanced-Web-Application-on-AWS/blob/main/screenshots/asg-after.png)
+
 
 ---
 
